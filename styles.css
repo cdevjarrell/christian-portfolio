@@ -1,3 +1,7 @@
 .activeButton {
   background-color: #000000;
 }
+
+.containerColor {
+  background-image: linear-gradient(to top right, #0ab5e8, #054e64);
+}
