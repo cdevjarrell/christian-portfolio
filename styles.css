@@ -2,6 +2,28 @@
   background-color: #000000;
 }
 
-.containerColor {
-  background-image: linear-gradient(to top right, #0ab5e8, #054e64);
+html {
+  background: url(https://images.unsplash.com/photo-1472803828399-39d4ac53c6e5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1421&q=80)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h3 {
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #ffffff;
+}
+
+.absolute-center {
+  position: relative;
 }
