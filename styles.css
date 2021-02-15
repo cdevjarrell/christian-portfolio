@@ -1,29 +1,92 @@
-.activeButton {
-  background-color: #000000;
+@font-face {
+  font-family: MyHelvetica;
+  src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"),
+    url(MgOpenModernaBold.ttf);
+  font-weight: bold;
 }
 
 html {
-  background: url(https://images.unsplash.com/photo-1472803828399-39d4ac53c6e5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1421&q=80)
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  font-size: 20x;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 h3 {
-  width: 50%;
-  height: 50%;
-  overflow: auto;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  font-size: 1.25rem;
+  color: #7fdbca;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  color: #cdebf7;
+}
+
+header a {
+  color: #ffffffcc;
+  font-size: 1rem;
+}
+
+header a:hover,
+header a:focus {
   color: #ffffff;
 }
 
-.absolute-center {
-  position: relative;
+footer i {
+  font-size: 2.5rem;
+}
+
+.bg-dark {
+  background-color: #054e64 !important;
+}
+
+.card {
+  background-color: #0ab5e8 !important;
+}
+
+.sidebar {
+  border-left: 1px solid #5f7e97;
+}
+
+.sidebar .list-group-item {
+  background-color: transparent;
+  text-align: left;
+}
+
+.sidebar .list-group-item.active {
+  border-color: #5f7e97;
+}
+
+main .tab-content,
+form {
+  text-align: left !important;
+}
+
+.code-editor li {
+  color: #cdebf7;
+}
+
+.headshot-wrapper {
+  text-align: center;
+}
+
+.headshot {
+  max-width: 150px;
+  border-radius: 100%;
+}
+
+.code-editor {
+  display: flex;
+  margin-bottom: 1rem;
+  min-height: 500px;
+}
+
+a,
+.highlight {
+  color: #7fdbca;
 }
