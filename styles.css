@@ -8,19 +8,24 @@
 html {
   font-size: 20x;
   box-sizing: border-box;
+  background-color: #054e64;
+}
+
+h1 {
+  color: #ffffff;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #7fdbca;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 p {
@@ -75,11 +80,6 @@ form {
   text-align: center;
 }
 
-.headshot {
-  max-width: 150px;
-  border-radius: 100%;
-}
-
 .code-editor {
   display: flex;
   margin-bottom: 1rem;
@@ -88,5 +88,9 @@ form {
 
 a,
 .highlight {
-  color: #7fdbca;
+  color: #0ab5e8;
+}
+
+form {
+  padding: 0px, 0px;
 }

@@ -4,39 +4,63 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="styles.css" />
-    <style></style>
+    <title>Christian Jarrell's About Page</title>
   </head>
-  <body>
-    <ul class="nav justify-content-center nav-pills">
-      <li class="nav-item">
-        <a class="nav-link" href="home.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link activeButton" href="about.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="work.html">Work</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-    </ul>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia
-    sollicitudin felis, id auctor erat aliquet id. Phasellus convallis dolor non
-    laoreet eleifend. Ut aliquet nulla id auctor rutrum. Suspendisse posuere
-    risus sed velit condimentum mollis. Pellentesque scelerisque mauris
-    convallis magna malesuada, eget imperdiet urna accumsan. Integer a imperdiet
-    orci. Curabitur in felis id neque lobortis suscipit. In ullamcorper, elit at
-    viverra hendrerit, risus ex pretium dolor, vitae commodo urna neque at
-    massa. Etiam finibus felis sed lectus efficitur aliquet. Nam lacinia mollis
-    ex non porta.
+  <body class="d-flex text-center text-white bg-dark">
+      <header class="mb-auto">
+        <div>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link active" aria-current="page" href="home.html">
+              Home
+            </a>
+            <a class="nav-link" href="work.html">Work</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+      <main class="code-editor py-5 row mb-3">
+        <div class="col-md-8 themed-grid-col">
+          <div class="tab-content container mt-3" id="nav-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="list-personal"
+              role="tabpanel"
+              aria-labelledby="list-personal-list"
+            >
+              <h2>Personal</h2>
+              <p>
+               As mentioned on the home page, I am an United States Marine Corps veteran that was enlisted as an avionics technician a focus on radar technologies for F/A-18C aircraft for 5 years.
+               I've always had a passion for troubleshooting, creating, and entertaining others. I decided to become a software developer because since I was in high school first learning HTML, 
+               I fell in love with creating something from nothing with just being able to type text into a field and watch it grow.
+              </p>
+              <p>
+                After leaving the USMC, I worked as a technician for AT&T installing internet in the Appalachians of North Carolina. I made a career change and became a maintenance electrician
+                for a factory in Northern Indiana before moving to Indianapolis to once again be an avionics technician again. Through the pandemic, I found myself laid off and set forth on a
+                new career as an In-Home Expert for AT&T, which involved a mix of customer relations as well as sales, which I excelled at with no previous sales experience.
+              </p>
+              <p>
+                During my role in sales, I quickly learned that even though I enjoyed communicating with customers daily and was great at it, I missed working with my hands. I missed troublehsooting,
+                solving problems, and making something come to life. And so I found my way into devCodeCamp, where I studied full-stack development.
+              </p>
+            </div>
+          </div>
+        </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
